@@ -39,17 +39,20 @@ end
 
 def run(song)
 jukebox = "help"
+loop do
   case jukebox
   when 'help'
     help
+    prompt
+    jukebox = user_input
   when 'list'
     list
   when 'play'
     play(song)
   when 'exit'
     exit_jukebox
-   #break
-  #end 
+   break
+  end 
 end
 end 
 
