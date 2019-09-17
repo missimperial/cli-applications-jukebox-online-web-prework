@@ -38,7 +38,7 @@ end
 
 
 def run(song)
-help
+#help
 loop do
   prompt
   jukebox = user_input
