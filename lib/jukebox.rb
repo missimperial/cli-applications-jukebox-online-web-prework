@@ -46,7 +46,7 @@ loop do
   when 'help'
     help
   when 'list'
-    list
+    list(song)
   when 'play'
     play(song)
   when 'exit'
