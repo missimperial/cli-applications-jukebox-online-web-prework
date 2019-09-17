@@ -38,13 +38,13 @@ end
 
 
 def run(song)
-jukebox = "help"
+helpbin/jukebox
 loop do
+  prompt
+  jukebox = user_input
   case jukebox
   when 'help'
     help
-    prompt
-    jukebox = user_input
   when 'list'
     list
   when 'play'
