@@ -50,7 +50,7 @@ jukebox = "help"
     play(song)
   when 'exit'
     exit_jukebox
-    break
+   #break
   #end 
 end
 end 
