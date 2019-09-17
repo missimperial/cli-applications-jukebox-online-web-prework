@@ -42,8 +42,6 @@ jukebox = "help"
   case jukebox
   when 'help'
     help
-    prompt
-    jukebox = user_input
   when 'list'
     list
   when 'play'
